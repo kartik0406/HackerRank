@@ -11,7 +11,7 @@ for(int i=0;i<n;i++){
             max=result;
             max1=arr[i];
         }
-        else if(result==max){
+        else if(result==max) {
             max2=arr[i];
         }
         visited.push_back(arr[i]);
