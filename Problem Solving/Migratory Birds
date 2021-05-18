@@ -19,7 +19,7 @@ for(int i=0;i<n;i++){
 }
 if(max2<=max1)
 max=max2;
-else if (max1<=max2) {
+else if (max1<=max2){
 max=max1;
 }
 return max;
