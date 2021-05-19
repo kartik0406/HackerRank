@@ -4,7 +4,7 @@ int i=k%n;
 int e=99;
 if(c[i]==1)
   e-=2;
-while(i!=0){
+while(i!=0) {
 i=(i+k)%n;
 e--;
 if(c[i]==1)
