@@ -1,4 +1,4 @@
-int jumpingOnClouds(vector<int> c, int k) {
+int jumpingOnClouds(vector<int> c, int k){
     int n=c.size();
 int i=k%n;
 int e=99;
