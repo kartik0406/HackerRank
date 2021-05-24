@@ -1,5 +1,5 @@
 void insertionSort2(int n, vector<int> arr){
-for(int i=1;i<n;i++){
+for(int i=1;i<n;i++) {
 		int ele=arr[i];
 		int b=i;
 		for(int j=0;j<i;j++){
