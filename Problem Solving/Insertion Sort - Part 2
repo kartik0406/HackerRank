@@ -1,4 +1,4 @@
-void insertionSort2(int n, vector<int> arr) {
+void insertionSort2(int n, vector<int> arr){
 for(int i=1;i<n;i++){
 		int ele=arr[i];
 		int b=i;
