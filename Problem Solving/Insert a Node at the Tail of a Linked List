@@ -5,7 +5,7 @@
     /*
      * For your reference:
      *
-     * SinglyLinkedListNode {
+     * SinglyLinkedListNode{
      *     int data;
      *     SinglyLinkedListNode next;
      * }
