@@ -12,7 +12,7 @@ for(int i=1;i<n;i++) {
 	   	arr[k]=arr[k-1];
 	   }
 	   arr[b]=ele;
-	  for(int c=0;c<n;c++){
+	  for(int c=0;c<n;c++) {
 	  	cout<<arr[c]<<" ";
 	  }
 	  cout<<endl;
