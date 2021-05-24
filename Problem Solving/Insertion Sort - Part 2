@@ -6,7 +6,7 @@ for(int i=1;i<n;i++) {
 			if(ele<arr[j])
 				{b=j;
 				 break;
-				}
+		    }
 		}
 	   for(int k=i;k>b;k--) {
 	   	arr[k]=arr[k-1];
