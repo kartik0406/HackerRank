@@ -1,6 +1,6 @@
 SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* llist, int data, int position){
 int count =0;
-SinglyLinkedListNode *addnode=new SinglyLinkedListNode(data);
+SinglyLinkedListNode *addnode=new SinglyLinkedListNode(data);;
 
 SinglyLinkedListNode *ptr=llist;
 if(position==0){
