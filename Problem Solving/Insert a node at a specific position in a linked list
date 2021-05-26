@@ -1,4 +1,4 @@
-SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* llist, int data, int position) {
+SinglyLinkedListNode* insertNodeAtPosition(SinglyLinkedListNode* llist, int data, int position){
 int count =0;
 SinglyLinkedListNode *addnode=new SinglyLinkedListNode(data);
 
