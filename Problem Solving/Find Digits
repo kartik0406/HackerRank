@@ -5,7 +5,7 @@ int findDigits(int n){
      cout<<t%10<<" ";
      if((t%10!=0)&&(n%(t%10)==0))
      count++;
-     t=t/10;
+     t=t/10;;
  }
  return count;
 }
