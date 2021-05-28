@@ -1,4 +1,4 @@
-vector<int> dynamicArray(int n, vector<vector<int>> queries) {
+vector<int> dynamicArray(int n, vector<vector<int>> queries){
 int lastAnswer=0;
 vector<int>arr[n];
 int temp[3];
