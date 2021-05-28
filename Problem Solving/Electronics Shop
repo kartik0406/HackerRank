@@ -1,5 +1,5 @@
 
-int getMoneySpent(vector<int> keyboards, vector<int> drives, int b) {
+int getMoneySpent(vector<int> keyboards, vector<int> drives, int b){
  
     sort(keyboards.begin(),keyboards.end());
     sort(drives.begin(),drives.end());
