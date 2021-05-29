@@ -1,4 +1,4 @@
-int pageCount(int n, int p) {
+int pageCount(int n, int p){
 vector<int>arr;
 int count=0;
 arr.push_back(0);
