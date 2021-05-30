@@ -5,5 +5,5 @@ int ascii=(int)word[i]-97;
 if(h[ascii]>max)
  max=h[ascii];
 }
-return max*word.length();
+return max*word.length();;
 }
