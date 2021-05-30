@@ -1,4 +1,4 @@
-int designerPdfViewer(vector<int> h, string word) {
+int designerPdfViewer(vector<int> h, string word){
 int max=0;
 for(int i=0;i<word.length();i++){
 int ascii=(int)word[i]-97;
