@@ -1,4 +1,4 @@
-SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* llist, int position) {
+SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* llist, int position){
 SinglyLinkedListNode *temp=llist;
 if(position==0){
             llist=llist->next;
