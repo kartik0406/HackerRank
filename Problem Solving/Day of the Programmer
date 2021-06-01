@@ -28,6 +28,6 @@ ostringstream str2;
     str2<<month;
       ostringstream str3;
           str3<<year;
-string s=str1.str()+"."+"0"+str2.str()+"."+str3.str();
+string s=str1.str()+"."+"0"+str2.str()+"."+str3.str();;
 return s;
 }
