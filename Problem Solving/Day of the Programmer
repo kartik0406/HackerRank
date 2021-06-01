@@ -1,4 +1,4 @@
-string dayOfProgrammer(int year) {
+string dayOfProgrammer(int year){
     int day,month;
 if(year>1918){
      day=13;
