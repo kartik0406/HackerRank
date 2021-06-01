@@ -1,4 +1,4 @@
-vector<int> cutTheSticks(vector<int> arr) {
+vector<int> cutTheSticks(vector<int> arr){
 int mn=*min_element(arr.begin(),arr.end());
 vector<int>res;
 int i=0;
