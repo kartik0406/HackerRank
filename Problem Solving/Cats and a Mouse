@@ -1,4 +1,4 @@
-string catAndMouse(int x, int y, int z) {
+string catAndMouse(int x, int y, int z){
 int catA=x-z,catB=y-z;
 if(catA<0)
 catA*=-1;
