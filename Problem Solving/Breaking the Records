@@ -1,4 +1,4 @@
-vector<int> breakingRecords(vector<int> scores) {
+vector<int> breakingRecords(vector<int> scores){
 vector<int>min;
 vector<int>max;
 int minimum=0,maximum=0;
