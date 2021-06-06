@@ -1,4 +1,4 @@
-int getTotalX(vector<int> a, vector<int> b) {
+int getTotalX(vector<int> a, vector<int> b){
     int flag=1;
     vector<int>res;
 for(int i=1;i<=b[b.size()-1];i++){
