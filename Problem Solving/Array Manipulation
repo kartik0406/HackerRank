@@ -1,4 +1,4 @@
-ong arrayManipulation(int n, vector<vector<int>> queries) {
+ong arrayManipulation(int n, vector<vector<int>> queries){
 long int *arr=new long int[n+1];
 fill_n(arr, n+1, 0);
 for(int j=0;j<m;j++){
