@@ -5,4 +5,4 @@
 4. C++
 5. C
 6. Java
-This repository includes the c++ code o
+This repository includes the c++ code of
