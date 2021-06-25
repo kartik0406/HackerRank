@@ -1,5 +1,5 @@
 int hourglassSum(vector<vector<int>> arr) {
-int m=0,k=0,max=0;
+int m=0,k=0,max=-200;
 
 for(int i=0;i<4;i++){
     int temp=0;
