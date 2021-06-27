@@ -10,5 +10,5 @@ prev=ptr;
 ptr=next;  
 }
 llist=prev;
-return llist;
+return llist;;
 }
