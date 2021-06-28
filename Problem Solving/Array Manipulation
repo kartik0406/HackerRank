@@ -1,0 +1,21 @@
+ong arrayManipulation(int n, vector<vector<int>> queries) {
+long int *arr=new long int[n+1];
+fill_n(arr, n+1, 0);
+for(int j=0;j<m;j++){
+    
+    int l=queries[j][0],c=queries[j][1],amt=queries[j][2];
+    for(int i=l-1;i<=c-1;i++){
+       
+        arr[i]+=amt;
+       
+    }
+}
+long max=arr[0];
+for(int i=1;i<n;i++){
+                  
+   if(max<arr[i])
+   max=arr[i];
+ }   
+
+ return max;
+}
