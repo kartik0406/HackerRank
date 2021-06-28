@@ -1,0 +1,27 @@
+vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
+int count=0;
+vector<int>result;
+
+vector<string>::iterator it;
+for(auto i=queries.begin();i!=queries.end();i++){
+   
+    count=0;
+    it=strings.begin();
+    while(it!=strings.end()){
+it=find(strings.begin(),strings.end(),*i);
+int m=(int)(it-strings.begin());
+cout<<m<<" ";
+if(m<strings.size()){
+strings.erase(strings.begin()+m);
+count++;
+}
+
+}
+cout<<"\n";
+result.push_back(count);
+}
+for(auto j=strings.begin();j!=strings.end();j++){
+    cout<<*j<<" ";
+}
+return result;
+}
