@@ -1,0 +1,11 @@
+vector<int> compareTriplets(vector<int> a, vector<int> b) {
+    int bob=0,alice=0;
+for(int i=0;i<a.size();i++){
+    if(a[i]>b[i])
+      alice++;
+    else if(a[i]<b[i])
+      bob++;
+}
+vector<int>result{alice,bob};
+return result;
+}
