@@ -9,3 +9,5 @@ for(int i=0;i<n;i++){
     neg++;
 }
 double pratio=(double)pos/(double)n;
+double nratio=(double)neg/(double)n;
+double zratio=1-pratio-nratio;
