@@ -8,4 +8,10 @@ for(int i=0;i<arr.size();i++){
         right+=arr[k][l];
         l--;
         k++;                 
-  }
+}
+int diff=right-left;
+if(diff<0)
+diff*=-1;
+return diff;
+}
+
