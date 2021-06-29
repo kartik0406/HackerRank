@@ -13,3 +13,6 @@ double nratio=(double)neg/(double)n;
 double zratio=1-pratio-nratio;
 cout<<fixed<<setprecision(6)<<pratio<<endl;
 cout<<fixed<<setprecision(6)<<nratio<<endl;
+cout<<fixed<<setprecision(6)<<zratio<<endl;
+}
+
