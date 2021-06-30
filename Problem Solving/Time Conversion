@@ -10,3 +10,11 @@ else if(s[8]=='A' && hour==12){
     hour-=12;
 }
  string a="",b="",c="";
+ if(ceil(log10(hour))<=1)
+a='0';
+if(ceil(log10(min))<=1)
+b='0';
+if(ceil(log10(sec))<=1)
+c='0';
+ ostringstream str1;
+ str1<<hour;
