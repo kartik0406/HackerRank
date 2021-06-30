@@ -24,3 +24,8 @@ string hour1=str1.str();
   string min1=str2.str();
    ostringstream str3;
   str3<<sec;
+   string sec1=str3.str();
+ string s1=a+hour1+":"+b+min1+":"+c+sec1;
+ cout<<s1;
+return s1;
+}
