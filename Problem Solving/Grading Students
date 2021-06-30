@@ -4,3 +4,10 @@ for(int i=0;i<grades.size();i++){
         int c=0;
         while(c<grades[i])
         c+=5;
+       if(c-grades[i]<3)
+        grades[i]=c;
+        
+    }
+}
+return grades;
+}
