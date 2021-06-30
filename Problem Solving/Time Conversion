@@ -1,0 +1,12 @@
+string timeConversion(string s) {
+    int hour=0,min=0,sec=0;
+     hour = (s[0]-48)*10+(s[1] - 48);
+     min = (s[3]-48)*10+(s[4] - 48);
+     sec = (s[6]-48)*10+(s[7] - 48);
+    
+if(s[8]=='P'&&hour<12)
+ hour+=12;
+else if(s[8]=='A' && hour==12){
+    hour-=12;
+}
+ string a="",b="",c="";
