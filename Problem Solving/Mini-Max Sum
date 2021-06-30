@@ -1,0 +1,3 @@
+void miniMaxSum(vector<int> arr) {
+sort(arr.begin(),arr.end());
+long long int sum=0;
