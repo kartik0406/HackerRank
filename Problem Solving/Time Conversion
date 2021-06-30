@@ -18,3 +18,9 @@ if(ceil(log10(sec))<=1)
 c='0';
  ostringstream str1;
  str1<<hour;
+string hour1=str1.str();
+  ostringstream str2;
+ str2<<min;
+  string min1=str2.str();
+   ostringstream str3;
+  str3<<sec;
