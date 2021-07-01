@@ -20,3 +20,9 @@ for(int i=1;i<scores.size();i++){
            min.push_back(min[i-1]);
   
 }
+vector<int>result;
+result.push_back(maximum);
+result.push_back(minimum);
+
+return result;
+}
