@@ -10,3 +10,13 @@ for(int i=1;i<scores.size();i++){
         max.push_back(scores[i]);
         maximum++;
     }
+ else
+      max.push_back(max[i-1]);
+    if(scores[i]<min[i-1]){
+       min.push_back(scores[i]);
+       minimum++;
+    }
+     else
+           min.push_back(min[i-1]);
+  
+}
