@@ -10,3 +10,10 @@ for(int i=0;i<apples.size();i++){
     if(apples[i]>=s&&apples[i]<=t)
     counta++;
 }
+for(int i=0;i<oranges.size();i++){
+        if(oranges[i]>=s&&oranges[i]<=t)
+            countb++;
+            }
+cout<<counta<<"\n"<<countb;
+
+}
