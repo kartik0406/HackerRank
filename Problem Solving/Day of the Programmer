@@ -1,0 +1,13 @@
+string dayOfProgrammer(int year) {
+    int day,month;
+if(year>1918){
+     day=13;
+     month=9;
+    if(year%100==0){
+        if(year%400==0)
+        day--;
+    }
+   else if (year%4==0){
+        day--;
+    }
+}
