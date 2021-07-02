@@ -11,3 +11,16 @@ if(year>1918){
         day--;
     }
 }
+else if(year<1918){
+      day=13;
+     month=9;
+     if (year%4==0){
+            day--;
+        }    
+}
+else {
+ day=26;
+ month=9;
+}
+ostringstream str1;
+  str1<<day;
