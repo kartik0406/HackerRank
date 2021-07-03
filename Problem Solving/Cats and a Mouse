@@ -1,0 +1,12 @@
+string catAndMouse(int x, int y, int z) {
+int catA=x-z,catB=y-z;
+if(catA<0)
+catA*=-1;
+if(catB<0)
+catB*=-1;
+if(catA<catB)
+return "Cat A";
+else if(catB<catA)
+return "Cat B";
+else return "Mouse C";
+}
