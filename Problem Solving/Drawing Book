@@ -1,0 +1,35 @@
+int pageCount(int n, int p) {
+vector<int>arr;
+int count=0;
+arr.push_back(0);
+for(int i=1;i<=n;i++){
+    arr.push_back(i);
+}
+if(arr.size()%2!=0){
+    arr.push_back(0);
+}
+int i=0;
+while(i<arr.size()){
+    if(arr[i]==p)
+      break;
+    else if(arr[i+1]==p){
+        break;
+    }
+    i+=2;
+    count++;
+    }
+int count2=0;
+i=arr.size()-1;
+while(i>=0){
+    if(arr[i]==p)
+          break;
+     else if(arr[i-1]==p){
+          break;
+         }
+         i-=2;
+         count2++;
+}
+if(count2<count)
+count=count2;
+return count;
+}
