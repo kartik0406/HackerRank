@@ -4,3 +4,16 @@ for(int l=i;l<=j;l++){
     rev=0;
     num=l;
     while(num!=0){
+ rev=rev*10+(num%10);
+        num/=10;
+    }
+    c=rev-l;
+    if(c<0)
+    c*=-1;
+    if(c%k==0){
+        cout<<c<<" ";
+    count++;
+    }
+}
+return count;
+}
