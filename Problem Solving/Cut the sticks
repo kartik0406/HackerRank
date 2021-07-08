@@ -1,0 +1,11 @@
+vector<int> cutTheSticks(vector<int> arr) {
+int mn=*min_element(arr.begin(),arr.end());
+vector<int>res;
+int i=0;
+while(i<arr.size()){
+    int count=0;
+for(int i=0;i<arr.size();i++){
+ if(arr[i]>0 && arr[i]<INT_MAX){
+  arr[i]-=mn;  
+  count++;
+ } 
