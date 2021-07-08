@@ -1,0 +1,4 @@
+int saveThePrisoner(long int n, long int m, long int s) {
+
+return (m+s-2)%n+1;
+}
