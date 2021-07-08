@@ -9,3 +9,14 @@ for(int i=0;i<arr.size();i++){
   arr[i]-=mn;  
   count++;
  } 
+if(arr[i]==0)
+ arr[i]=INT_MAX;
+}
+if(count==0)
+break;
+res.push_back(count);
+i++;
+mn=*min_element(arr.begin(),arr.end());
+}
+return res;
+}
