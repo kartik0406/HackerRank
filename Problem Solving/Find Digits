@@ -1,0 +1,11 @@
+int findDigits(int n) {
+ int count=0;
+ int t=n;
+ while(t>0){
+     cout<<t%10<<" ";
+     if((t%10!=0)&&(n%(t%10)==0))
+     count++;
+     t=t/10;
+ }
+ return count;
+}
