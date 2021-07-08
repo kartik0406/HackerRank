@@ -10,3 +10,19 @@ for(int i=0;i<arr.size();i++){
             break;
         }
     }
+if(flag==true){
+    int k=j+1;
+    for(;k<arr.size();k++){
+        if(arr[k]-arr[j]==d)
+        {   flag=true;
+            break;
+        }
+        flag=false;
+    }
+    cout<<i<<" "<<j<<" "<<k<<endl;
+     if(flag==true && k!=arr.size())
+          count++;
+    }
+}
+return count;
+}
