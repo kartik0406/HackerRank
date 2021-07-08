@@ -1,0 +1,12 @@
+int beautifulTriplets(int d, vector<int> arr) {
+    int count=0;
+for(int i=0;i<arr.size();i++){
+    int j=i+1;
+    bool flag=false;
+    for(;j<arr.size();j++){
+        if(arr[j]-arr[i]==d)
+        {
+            flag=true;
+            break;
+        }
+    }
