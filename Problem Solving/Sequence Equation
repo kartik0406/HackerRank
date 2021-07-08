@@ -1,0 +1,9 @@
+vector<int> permutationEquation(vector<int> p) {
+    vector<int>res;
+for(int i=1;i<=p.size();i++){
+    auto it=find(p.begin(),p.end(),i);
+    it=find(p.begin(),p.end(),it-p.begin()+1);
+    res.push_back(it-p.begin()+1);
+}
+return res;
+}
