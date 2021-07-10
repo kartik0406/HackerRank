@@ -1,6 +1,6 @@
 int pickingNumbers(vector<int> a){
     int mx=INT_MIN;
-for(int i=0;i<a.size();i++){
+for(int i=0;i<a.size();i++) {
     int count1=0,count2=0;
     for(int j=i;j<a.size();j++){
         if(a[i]+1==a[j])
