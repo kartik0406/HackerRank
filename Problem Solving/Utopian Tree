@@ -1,4 +1,4 @@
-int utopianTree(int n) {
+int utopianTree(int n){
     int growth=1;
     
   if(n!=0){
