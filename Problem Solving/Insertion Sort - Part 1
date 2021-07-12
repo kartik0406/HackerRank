@@ -7,3 +7,14 @@ void insertionSort1(int n, vector<int> arr) {
          b=i+1;     
          break;
       }
+for(int j=0;j<n;j++)
+      cout<<arr[j]<<" ";
+      cout<<endl;
+  }
+  if(b==-1)
+   b=0;
+  arr[b]=ele;
+ for(int j=0;j<n;j++)
+       cout<<arr[j]<<" ";
+       cout<<endl;
+}
