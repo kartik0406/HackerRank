@@ -1,4 +1,4 @@
-int hurdleRace(int k, vector<int> height) {
+int hurdleRace(int k, vector<int> height){
 sort(height.begin(),height.end());
 int doses=height[height.size()-1]-k;
 if(doses>0)
