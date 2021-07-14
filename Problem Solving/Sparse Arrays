@@ -20,7 +20,7 @@ count++;
 cout<<"\n";
 result.push_back(count);
 }
-for(auto j=strings.begin();j!=strings.end();j++){
+for(auto j=strings.begin();j!=strings.end();j++) {
     cout<<*j<<" ";
 }
 return result;
