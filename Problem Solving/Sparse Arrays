@@ -1,4 +1,4 @@
-vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
+vector<int> matchingStrings(vector<string> strings, vector<string> queries){
 int count=0;
 vector<int>result;
 
