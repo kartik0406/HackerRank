@@ -8,7 +8,7 @@ int sockMerchant(int n, vector<int> ar){
          int countme=count(ar.begin(),ar.end(),ar[i]);
          if(countme%2==0)
          res+=countme/2;
-else {
+else{
          countme-=1;
          res+=countme/2;
          }
