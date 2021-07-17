@@ -1,4 +1,4 @@
-int sockMerchant(int n, vector<int> ar) {
+int sockMerchant(int n, vector<int> ar){
  sort(ar.begin(),ar.end());
  vector<int>visited;
  int res=0;
