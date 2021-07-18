@@ -1,4 +1,4 @@
-long flippingBits(long n) {
+long flippingBits(long n){
     long a=pow(2,32)-1;
     long res=n^a;
   return res;
