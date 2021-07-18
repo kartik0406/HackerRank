@@ -1,0 +1,7 @@
+int lonelyinteger(vector<int> a) {
+    int xorsum=0;
+    for(int i=0;i<a.size();i++){
+        xorsum^=a[i];
+    }
+    return xorsum;
+}
