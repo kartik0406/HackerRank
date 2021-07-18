@@ -1,6 +1,6 @@
 int viralAdvertising(int n){
     int people=5,liked=0,like;
-for(int i=1;i<=n;i++){
+for(int i=1;i<=n;i++) {
     like=people/2;
     liked+=like;
     people=3*like;
