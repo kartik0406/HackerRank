@@ -6,7 +6,7 @@ string timeConversion(string s) {
     
 if(s[8]=='P'&&hour<12)
  hour+=12;
-else if(s[8]=='A' && hour==12){
+else if(s[8]=='A' && hour==12) {
     hour-=12;
 }
  string a="",b="",c="";
