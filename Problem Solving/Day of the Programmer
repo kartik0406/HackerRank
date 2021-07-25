@@ -11,7 +11,7 @@ if(year>1918){
         day--;
     }
 }
-else if(year<1918){
+else if(year<1918) {
       day=13;
      month=9;
      if (year%4==0){
