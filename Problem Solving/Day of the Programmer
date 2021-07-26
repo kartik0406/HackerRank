@@ -20,7 +20,7 @@ else if(year<1918) {
 }
 else {
  day=26;
- month=9;
+ month=9;;
 }
 ostringstream str1;
   str1<<day;
