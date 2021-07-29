@@ -14,7 +14,7 @@ while(ptr!=NULL){
         ptr->next=addnode;
     }
     count++;
-    ptr=ptr->next;
+    ptr=ptr->next;;
 }
 }
 return llist;
