@@ -1,4 +1,4 @@
-void insertionSort1(int n, vector<int> arr) {
+void insertionSort1(int n, vector<int> arr){
   int ele=arr[n-1],b=-1;
   for(int i=n-2;i>=0;i--){ 
       if(ele<arr[i])
