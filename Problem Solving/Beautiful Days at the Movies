@@ -3,7 +3,7 @@ int beautifulDays(int i, int j, int k){
 for(int l=i;l<=j;l++){
     rev=0;
     num=l;
-    while(num!=0){
+    while(num!=0) {
  rev=rev*10+(num%10);
         num/=10;
     }
