@@ -9,7 +9,7 @@ import java.util.regex.*;
 public class Solution{
 
     // Complete the reverseArray function below.
-    static int[] reverseArray(int[] a) {
+    static int[] reverseArray(int[] a){
         int n=a.length;
         int[] ra=new int[n];
         int i=n-1;
