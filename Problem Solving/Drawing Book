@@ -9,7 +9,7 @@ if(arr.size()%2!=0){
     arr.push_back(0);
 }
 int i=0;
-while(i<arr.size()){
+while(i<arr.size()) {
     if(arr[i]==p)
       break;
     else if(arr[i+1]==p) {
