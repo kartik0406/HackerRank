@@ -2,7 +2,7 @@ int utopianTree(int n){
     int growth=1;
   if(n!=0){
    int flag=0;
-   for(int i=1;i<=n;i++){
+   for(int i=1;i<=n;i++) {
        if(flag==0)
          {growth*=2;
            flag=1;
