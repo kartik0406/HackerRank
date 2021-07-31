@@ -4,7 +4,7 @@ int getTotalX(vector<int> a, vector<int> b){
 for(int i=1;i<=b[b.size()-1];i++){
     res.push_back(i);
     int flag2=0;
-    for(int k=0;k<a.size();k++){
+    for(int k=0;k<a.size();k++) {
         if(i%a[k]!=0){
           flag=0;
          if(flag2==0){
