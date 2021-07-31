@@ -23,7 +23,7 @@ i=arr.size()-1;
 while(i>=0){
     if(arr[i]==p)
           break;
-     else if(arr[i-1]==p){
+     else if(arr[i-1]==p) {
           break;
          }
          i-=2;
